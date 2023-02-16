@@ -62,7 +62,7 @@ function playGame () {
             default: 
                 console.log('Round is a draw')
         }
-        console.log(`Score is: Player: ${playerScore} x Computer: ${computerScore}`)
+        console.log(`Score is: Player ${playerScore} x ${computerScore} Computer`)
         if(playerScore === 3){
             console.log('You won the game. Well Done!!')
         } else if(computerScore === 3) {
